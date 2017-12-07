@@ -28,6 +28,6 @@ $(function(){
             content = '<a href="/cities/'+city+'">'+city+'</a>';
             list.push($('<li>', { html: content }));
         }
-        $('.city-list').append(list)
+        $('.city-list').append(list);
     }
 });
