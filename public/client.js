@@ -17,7 +17,7 @@ $(function(){
        }).done(function (cityName) {
            appendToList([cityName]);
            form.trigger('reset');
-       })
+       });
     });
 
     function appendToList(cities) {
